@@ -1,0 +1,9 @@
+name: generate posdcast feeds
+on: [push]
+jobs:
+  build:
+   runs-on: ubntu-latest
+   steps: 
+     - name: Checkout Repository
+       uses: actions/checkout@v3
+    
