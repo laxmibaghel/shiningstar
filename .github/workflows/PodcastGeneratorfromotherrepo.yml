@@ -1,0 +1,14 @@
+name: generate posdcast feeds
+on: [push]
+jobs:
+  build:
+   runs-on: ubuntu-latest
+   steps: 
+     - name: Checkout Repo
+       uses: actions/checkout@v3
+     - name: Generate feed from Another repo
+       uses: /laxmibaghel/podcast-feed@main
+       
+       
+     
+       
