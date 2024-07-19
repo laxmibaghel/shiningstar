@@ -1,4 +1,4 @@
-name: generate posdcast feeds
+name: Generate feed from Another repo
 on: [push]
 jobs:
   build:
